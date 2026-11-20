@@ -1,0 +1,12 @@
+name = "wallora-store"
+main = "worker.js"
+compatibility_date = "2026-11-20"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wallora-db"
+database_id = "5f03afea-ffe1-40bc-8519-a09592cf6679"
